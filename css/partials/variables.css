@@ -7,7 +7,7 @@ html,body{
     width:100%;
     height:100%;
 }
-/* CSS Variable*/
+/* CSS Variable instead of hard coding the values each time.*/
 
 :root{
     --primary-color: #4458dc;

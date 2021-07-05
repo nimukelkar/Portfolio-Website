@@ -8,28 +8,29 @@
 
 /*Start Navigation */
 
-.header_area .main-menu .navbar .navbar-brand{
-    padding: 0 2rem 0 5rem;
+.header_area .mainmenu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem; /*Top,Left,bottom,left  */
 }
-.header_area .main-menu .navbar{
-    padding:1rem 20 rem
+.header_area .mainmenu .navbar{
+    padding:1rem 20 rem /*top,bottom (1) left,right(20) */
 }
 
-.header_area .main-menu .nav-item .nav-link{
-    font: normal 500 15px/2px var(--roboto);
+.header_area .mainmenu .nav-item .nav-link{
+    font:normal 500 15px/2px(var--roboto); 
     text-transform: uppercase;
+    font-weight:500;
     padding: 1.7rem;
-    color: var(--title-color);
+    color:var(--title-color);
 }
 
-.header_area .main-menu .navbar-nav .active a{
+.header_area .mainmenu .navbar-nav .active a{ /*Should become blue on clicking */
     background: var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
-.header_area .main-menu .navbar-nav a:hover{
+.header_area .mainmenu .navbar-nav a:hover{
     background: var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -46,11 +47,11 @@
 }
 
 .site-main .site-banner .site-title h3{
-    padding-top: 35%;
+    padding-top: 35%; /*Hey should be at 35% dist from top.   */
     font-weight: 500;
 }
 
-.site-main .site-banner .site-title h3::after{
+.site-main .site-banner .site-title h3::after{ /* Line after hey*/
     content: " ";
     height: 2px;
     width: 18vw;
@@ -60,16 +61,16 @@
     transform: translateY(-10px);
 }
 
-.site-main .site-banner .site-title h1{
+.site-main .site-banner .site-title h1{ /*I am Nirmayi*/
     font-size: 5rem;
 }
 
 .site-main .site-banner .site-title h4{
-    font-size: 1.5rem;
+    font-size: 1.5rem; /*A computer engineering student */
 }
 
 .site-main .site-banner .banner-image > img{
-    padding: 7rem 0;
+    padding: 7rem 0; /*7 rem (top and bottom) 0 rem(left and right) */
     width: 90rem;
 }
 

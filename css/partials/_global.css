@@ -1,4 +1,5 @@
 
+/* Global classes*/
 .title-text{
     font:normal bold 50px/72px var(--roboto);
 }
@@ -17,13 +18,13 @@
 .button.primary-button{
     background:var(--gradient-color);
     background-clip:padding-box;
-    color: whitesmoke;
+    color: whitesmoke; /*Specifies background color to this box.  */
     transition: background .6s ease;
     box-shadow:var(--box-shadow);
 
 
 }
-.button.primary-button:hover{
+.button.primary-button:hover{ /*On hovering change in effect*/
     background: whitesmoke;
     background-clip: padding-box;
     color: black;

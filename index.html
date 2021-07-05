@@ -20,12 +20,15 @@
     <link rel="stylesheet" href="./vender/owl-carousel/css/owl.carousel.min.css">
     <link rel="stylesheet" href="./vender/owl-carousel/css/owl.theme.default.min.css">
 
-
+<!-- To create a div tag what is needed is .name of class and then hit tab.-->
+<!--To create a div tag with id # name of class then tab.-->
+<!--To create an h1 tag h1.class name and then tab-->
+<!--To create paragraph p.class1.class2 then hit tab-->
 </head>
 <body>
     <!--*********Start Header Area***********-->
    <header class="header_area">
-       <div class="mainmenu">
+       <div class="mainmenu"> <!-- Using the standard bootstrap navigation menu code.-->
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="logo"></a>
@@ -33,7 +36,7 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
-                <div class="me-auto"></div>
+                <div class="me-auto"></div> <!--Moves the nav bar to the right.-->
                 <ul class="navbar-nav">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -74,20 +77,20 @@
 
         <!--*********Start Banner Area******-->
         <section class="site-banner">
-           <div class="container">
-               <div class="row">
-                   <div class="col-lg-6 col-md-12 site-title">
+           <div class="container"> <!--Use bootstrap container class.Specifies 80% width makes it responsive.-->
+               <div class="row"> <!--Bootstrap has 12 column grid system.Inside row create 2 columns of lg6.-->
+                   <div class="col-lg-6 col-md-12 site-title"> <!--custom class site-title.-->
                        <h3 class="title-text">Hey</h3>
                         <h1 class="title-text text-uppercase">I am Nirmayi!</h1>
                         <h4 class="title-text text-uppercase">A Computer Engineering Student</h4>
                         <div class="site-buttons">
-                            <div class="d-flex flex-row flex-wrap">
+                            <div class="d-flex flex-row flex-wrap"><!--Bootstrap class that will specify flex property to the div.Also specify display direction.Flex wrap moves contents to next line.-->
                                 <button type="button" class="btn button primary-button mr-4 text-uppercase">hire me</button>
-                                <button type="button" class="btn button secondary-button text-uppercase">Get cv</button>
+                                <button type="button" class="btn button secondary-button text-uppercase">Get cv</button> <!--Using the std bootstrap classes.-->
                             </div>
                         </div>
                    </div>
-                   <div class="col-lg-6 col-md-12 banner-image">
+                   <div class="col-lg-6 col-md-12 banner-image"> <!--Make image responsive using img-fluid class.-->
                        <img src="./img/picture jaipur.JPG" alt="banner-img" class="img-fluid">
                    </div>
                </div>
@@ -97,7 +100,7 @@
 
         <!--*******About Area***************-->
         <section class="about-area">
-          <div class="container-fluid">
+          <div class="container-fluid"> <!--Class specifies 100% width to the division tag,responsive-->
             <class class="row">
               <div class="col-lg-6 col-md-12">
                 <div class="about-image">
@@ -110,7 +113,7 @@
                   <span>introduce</span>
                   <span>myself</span>
                 </h2>
-                <div class="paragraph py-4 w-75">
+                <div class="paragraph py-4 w-75"> <!--Bootstrap class which adds relevant padding.-->
                   <p class="para">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil ab suscipit maxime nobis doloremque necessitatibus aspernatur distinctio dolore rerum beatae.
 
